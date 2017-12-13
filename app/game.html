@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<!--META-->
+		<meta charset="utf-8">
+		<!-- FAVICON-->
+		<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+		<!-- SEO-->
+		<meta name="Description" content="game">
+		<meta name="Robots" content="index, follow">
+		<!-- CSS-->
+		<link rel="stylesheet" href="css/style.css">
+		<!-- TITLE -->
+		<title>Game</title>
+		</head>
+	<body>
+		<div id="overlay"></div>
+		<div id="introduction">
+			<h2>Space Flight</h2>
+			<p>Привет, игрок! Уворачивайся от метеоритов и лови капельки!<br>Good luck!</p>
+			<button id="play">Play</button>
+			<button id="home"><a href="index.html">Home</a></button>
+		</div>
+		<div id="game-over">
+			<h2 id="status">GAME OVER...</h2>
+			<p id="congratulations"></p>
+			<button id="play-again">Play Again</button>
+		</div>
+		<div id="win">
+			<h2 id="status">Поздравляю тебя с победой!!!<br>Ты насобирал максимальное количество капелек.</h2>
+			<p id="congratulations">Нажми <strong>Refresh</strong>, чтобы начать сначала.</p>
+		</div>
+		<div id="gameName">Управление клавишами - WASD.</div>
+		<canvas id="map"></canvas>
+		<canvas id="player"></canvas>
+		<canvas id="enemy"></canvas>
+		<canvas id="drop"></canvas>
+		<canvas id="stats"></canvas>
+		<div class="bookmark"><a href="index.html">Home</a></div>
+		<div class="bookmark2"><a href="game.html">Refresh</a></div>
+		<!--SCRIPT-->
+		<script type="text/javascript" src="js/game.js"></script> 
+	</body>
+</html>

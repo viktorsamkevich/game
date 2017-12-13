@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Helvetica', sans-serif;
+   
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    font-family: 'Helvetica', sans-serif;
+    cursor: pointer;
+}
+
+.bookmark {
+    width: 150px;
+    height: 40px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #ebebeb;
+    border: 2px solid black;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+}
+
+.bookmark a {
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    margin: 5px auto;
+    color: green;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.bookmark a:hover {
+    color: red;
+}
+
+.bookmark2 {
+    width: 150px;
+    height: 40px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #ebebeb;
+    border: 2px solid black;
+    position: fixed;
+    right: 0px;
+    top: 40px;
+}
+
+.bookmark2 a {
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    margin: 5px auto;
+    color: green;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.bookmark2 a:hover {
+    color: red;
+}
+
+#gameName {
+    color: #fff;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+}
+
+canvas {
+    display: block;
+    margin: 30px auto 0px;
+}
+
+#player, #enemy, #drop, #stats {
+    display: block;
+    margin: -500px auto 0px; 
+}
+
+#game-over, #overlay,
+#win,
+#introduction {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: none;
+}
+
+#introduction p {
+    font-size: 26px;
+    font-weight: 600;
+}
+#win p {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+#overlay {
+    background-color: #000000;
+    opacity: .7;
+}
+
+#game-over,
+#win,
+#introduction {
+    height: 200px;
+    margin-top: 150px;
+    text-align: center;
+    color: red;
+}
+
+#game-over h2,
+#win h2,
+#introduction h2{
+    font-size: 40px;
+    font-family: 'Helvetica', sans-serif;
+}
+
+#game-over button,
+#win button,
+#introduction button {
+    font-size: 30px;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 20px;
+    padding: 0 10px;
+    height: 45px;
+    width: 185px;
+    color: green;
+    text-decoration: none;
+    text-align: center;
+}
+
+#introduction button a {
+    text-decoration: none;
+    color: green;
+}
+
+#introduction button:hover {
+    color: red;
+}
+
+#introduction button a:hover {
+    color: red;
+}
+
+#game-over button:hover {
+    color: red;
+}
